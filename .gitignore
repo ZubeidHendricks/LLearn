@@ -3,3 +3,39 @@ env
 *.pyc
 __pycache__/
 lingualearn/__pycache__/
+*venv  
+ai_services\venv 
+node_modules 
+*node_modules 
+lingualearn/frontend/node_modules   
+lingualearn/backend/node_modules 
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React
+/frontend/build
+
+# React Native
+/LinguaLearnMobile/android/app/build/
+/LinguaLearnMobile/ios/Pods/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+EOF
